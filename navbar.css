@@ -364,6 +364,10 @@ body {
     border-radius: 0.3125rem;
 }
 
+.home-buttons-mobile{
+    display: none;
+}
+
 .home-line-4{
     color:#48BF84;
     font-size: 0.875rem;
@@ -394,6 +398,10 @@ body {
 }
 
 @media screen and (max-width: 1200px){
+    .container{
+        grid-template-columns:3fr 2fr;
+    }
+    
     .home-buttons{
         display: block;
     }
@@ -425,9 +433,29 @@ body {
         margin-top:1rem;
     }
 
-    .home-images-container{
-        margin-top:3rem;
+    .btn-register{
+        display: none;
     }
 
-    
+    .btn-register-mobile{
+        background-color: #0d2129;
+        color:white;
+        text-decoration:none;
+        padding: 0.875rem 2.25rem;
+        font-size: 1.25rem;
+        line-height: 1.5;
+        max-width:229px;
+        border-radius: 0.3125rem;
+    }
+
+    .home-images-container{
+        margin-top:3rem;
+        flex-direction: column;
+    }
+
+    .home-buttons-mobile{
+        margin-top:3rem;
+        margin-bottom: 3rem;
+        display: block;
+    }
 }

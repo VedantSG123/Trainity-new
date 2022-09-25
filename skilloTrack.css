@@ -1,0 +1,652 @@
+.skillo-track-section {
+  position: relative;
+  padding-top: 45px;
+  /* height: 120vh; */
+  margin-bottom: 4rem;
+}
+
+.skillo-track-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60%;
+}
+
+.skillo-track-background img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1023px) {
+  .skillo-track-background {
+    height: 30%;
+  }
+}
+
+.skillo-main-content-container {
+  padding: 0 20px;
+  margin: auto;
+  max-width: 1140px;
+  width: 100%;
+  position: relative;
+}
+
+@media screen and (min-width: 575px) {
+  .skillo-main-content-container {
+    padding: 0 30px;
+  }
+}
+
+.skillo-track-head-1 {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: 900;
+  line-height: 2.5;
+  color: rgb(255, 186, 0);
+  margin: 0px;
+  padding: 0px;
+}
+
+.skillo-track-head-2 {
+  display: block;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: 900;
+  line-height: 1.3;
+  color: rgb(255, 255, 255);
+  margin-bottom: 68px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.skillo-track-head-2 img {
+  height: 1em;
+  margin-bottom: 5px;
+  vertical-align: middle;
+  border-style: none;
+  font-weight: 900;
+  line-height: 1.3;
+  color: rgb(255, 255, 255);
+}
+
+@media screen and (min-width: 376px) {
+  .skillo-track-head-1 {
+    font-size: 14px;
+  }
+  .skillo-track-head-2 {
+    font-size: 22px;
+  }
+  .skillo-track-head-2 img {
+    font-size: 22px;
+  }
+}
+
+.skillo-card-section {
+  display: flex;
+  gap: 30px;
+  width: 100%;
+  flex-wrap: wrap;
+  height: fit-content;
+  margin-top: 2.5rem;
+}
+
+.skillo-card-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 1023px) {
+  .skillo-card {
+    position: relative;
+    flex: 0 1 calc(50% - 20px);
+  }
+  .skillo-card:not(:nth-child(2n)) {
+    margin-right: 40px;
+  }
+}
+
+.skillo-card-content {
+  width: 100%;
+  height: fit-content !important;
+  padding: 25px 0px;
+  border-radius: 8px;
+  box-shadow: rgb(25 24 29 / 8%) 0px 0px 50px 0px;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+}
+
+.skillo-card-enrollments {
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  transform: translate(-50%, -50%);
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 6px 14px 6px 7px;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(233, 233, 233);
+  box-shadow: rgb(25 24 29 / 8%) 0px 0px 50px 0px;
+  width: fit-content;
+  min-width: fit-content;
+  overflow: hidden;
+}
+
+.skillo-card-faces {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.skillo-card-face {
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  /* border: 1px solid rgb(255, 255, 255); */
+  overflow: hidden;
+  margin-left: -5px;
+}
+
+.skillo-card-face img {
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+
+  object-fit: contain;
+  vertical-align: middle;
+  border-style: none;
+}
+
+.skillo-card-number {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin: 0px;
+  margin-left: 10px;
+  padding: 0px;
+  font-size: 12px;
+  line-height: 1.7;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.skillo-card-face:first-child {
+  margin-left: 10%;
+}
+
+.skillo-card-main-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.skillo-card-logos {
+  display: flex;
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 0px 30px;
+}
+
+.skillo-card-logos img {
+  width: 136px;
+  height: 136px;
+  border-radius: 8px;
+  vertical-align: middle;
+  border-style: none;
+}
+
+.skillo-card-highlight-logos {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+}
+
+.skillo-card-text-content {
+  padding: 0px 10px 0px 30px;
+}
+
+.skillo-card-text-content h3 {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin: 0px;
+  padding: 0px;
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 900;
+  line-height: 1.7;
+  font-size: 18px;
+}
+
+.skillo-card-text-content p {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  min-height: 3.86em;
+  line-height: 1.93;
+  color: rgb(134, 134, 134);
+  font-size: 12px;
+  margin: 0px;
+  padding: 0px;
+}
+
+@media screen and (min-width: 576px) {
+  .skillo-card-text-content h3 {
+    font-size: 22px;
+    font-weight: 900;
+    line-height: 1.7;
+  }
+
+  .skillo-card-text-content p {
+    font-size: 14px;
+  }
+}
+
+.skillo-card-features {
+  display: flex;
+  margin-top: 18px;
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 0px 30px;
+}
+
+.skillo-card-feature {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  flex: 1 1 0%;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+.skillo-card-feature img {
+  vertical-align: middle;
+  border-style: none;
+
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.skillo-card-feature p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin: 0px;
+  padding: 0px;
+  line-height: 2;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+@media screen and (min-width: 576px) {
+  .skillo-card-feature p {
+    font-size: 14px;
+  }
+
+  .skillo-card {
+    margin-top: 2rem;
+  }
+
+  .skillo-track-head-1 {
+    font-size: 16px;
+  }
+
+  .skillo-track-head-2 {
+    font-size: 30px;
+  }
+
+  .skillo-track-head-2 img {
+    height: 30px;
+    margin-bottom: 5px;
+  }
+}
+
+.skillo-card-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 10px;
+  padding: 0px 30px;
+}
+
+.skillo-card-btn-container {
+  background-color: transparent;
+  color: #48bf84;
+  border: 1px solid #48bf84;
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+  padding-top: 12px;
+  padding-bottom: 10px;
+  width: calc(50% - 10px);
+  text-align: center;
+  width: 100%;
+  border-radius: 4px;
+}
+.skillo-card-btn-container:hover {
+  cursor: pointer;
+}
+
+.skillo-card-btn-container:last-child {
+  background: #48bf84;
+}
+
+.skillo-card-btn-1 {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 800;
+  color: #48bf84;
+}
+
+.skillo-card-btn-2 {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 800;
+  color: #fff;
+}
+
+@media screen and (min-width: 576px) {
+  .skillo-card-btn-1 {
+    font-size: 16px;
+  }
+  .skillo-card-btn-2 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .skillo-card {
+    margin: 0px;
+    margin-bottom: 40px;
+    flex: 0 1 calc(100%, -0px);
+  }
+  .skillo-card-content {
+    width: 100%;
+    height: fit-content !important;
+  }
+  .skillo-card-logos img {
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;
+  }
+  .skillo-card-text-content {
+    margin-bottom: 0px;
+  }
+  .skillo-card-features {
+    border-top: 1px solid rgb(231, 231, 235);
+    border-bottom: 1px solid rgb(231, 231, 235);
+    padding: 5px;
+  }
+  .skillo-card-feature:not(:last-child) {
+    border-right: 1px solid rgb(231, 231, 235);
+  }
+
+  .skillo-card-feature img {
+    display: none;
+  }
+
+  .skillo-card-buttons {
+    padding: 0 20px;
+  }
+}
+
+.skillo-card-discount {
+  display: flex;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+  color: rgb(255, 255, 255);
+  margin-bottom: 22px;
+}
+
+.skillo-limited-seats {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  white-space: nowrap;
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 86, 0) 3%,
+    rgb(255, 147, 0) 98%
+  );
+  padding: 5px 12px;
+  border-radius: 4px;
+}
+
+.skillo-limited-seats-empty {
+  margin: 0;
+  padding: 0;
+}
+
+.skillo-limited-seats p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin: 0px;
+  padding: 0px;
+  font-size: 12px;
+  font-weight: 500;
+  font-style: oblique;
+  line-height: 1;
+  white-space: nowrap;
+  color: rgb(255, 255, 255);
+}
+
+.skillo-discount {
+  padding: 5px 10px;
+  margin-left: 15px;
+  margin-right: -41px;
+  background-color: rgb(72, 196, 121);
+  position: relative;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  white-space: nowrap;
+}
+
+.skillo-discount-img {
+  height: 17px;
+  width: 17px;
+  margin-right: 7px;
+}
+
+.skillo-discount p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: 500;
+  line-height: 1;
+  margin: 0px;
+  padding: 0px;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.skillo-discount::after {
+  box-sizing: border-box;
+  content: "";
+  position: absolute;
+  right: 0px;
+  height: 10px;
+  width: 11px;
+  bottom: -10px;
+  clip-path: polygon(0px 0px, 100% 0px, 0px 100%);
+  background-color: rgb(52, 144, 89);
+}
+
+@media screen and (max-width: 575px) {
+  .skillo-discount {
+    margin-left: 10px;
+  }
+  .skillo-discount-img {
+    display: none;
+  }
+  .skillo-discount-img {
+    vertical-align: middle;
+    border-style: none;
+  }
+  .skillo-discount p {
+    /* max-width: 48px; */
+    overflow: hidden;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .skillo-limited-seats-empty {
+    display: none !important;
+  }
+}
+
+.skillo-card-experts {
+  padding: 9px 25px;
+  background-image: linear-gradient(
+    to right,
+    rgb(228, 227, 232),
+    rgba(229, 228, 233, 0)
+  );
+  margin-right: -30px;
+  border-radius: 12px;
+}
+
+.skillo-card-experts p {
+  font-size: 10px;
+  font-style: oblique;
+  font-weight: 600;
+  line-height: 1.86;
+  font-size: 12px;
+}
+
+.skillo-card-experts-list {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.skillo-card-experts-list-item {
+  height: 40px;
+  width: 40px;
+  padding: 7px;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(231, 231, 235);
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+.skillo-card-experts-list-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  vertical-align: middle;
+  border-style: none;
+  transform: translateY(-15%) scale(2.5);
+}
+
+@media screen and (max-width: 575px) {
+  .skillo-card-experts {
+    padding: 9px 10px 14px 15px;
+    overflow: hidden;
+  }
+  .skillo-card-experts p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .skillo-card-experts-list-item {
+    height: 30px;
+    width: 30px;
+    padding: 4px;
+  }
+}
+
+@media screen and (max-width: 546px) {
+  .skillo-card-text-content p {
+    display: none;
+  }
+  .skillo-card-text-content h3 {
+    margin-bottom: 1rem;
+  }
+  .skillo-card-features {
+    display: none;
+  }
+  #view-btn {
+    display: block;
+  }
+  .skillo-card-buttons {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 546px) {
+  #view-btn {
+    display: none;
+  }
+
+  .skillo-feautre-icons-mobile {
+    display: none !important;
+  }
+}
+
+.skillo-card-heading {
+  display: grid;
+  grid-template-columns: 0.9fr 1fr;
+}
+
+.skillo-feautre-icons-mobile {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  transform: translateY(-10%);
+  margin-left: 10px;
+}
+
+.skillo-card-feature-2 {
+  display: grid;
+  grid-template-columns: 0.4fr 1fr;
+  align-items: center;
+  justify-content: center;
+}
+
+.skillo-card-feature-2 img {
+  vertical-align: middle;
+  border-style: none;
+
+  width: 15px;
+  height: 15px;
+  margin-right: 8px;
+}
+
+.skillo-card-feature-2 p {
+  display: block;
+
+  margin: 0px;
+  padding: 0px;
+  line-height: 2;
+  font-weight: 500;
+  font-size: 12px;
+  align-self: center;
+}

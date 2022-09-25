@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Congratulations</title>
+    <meta content="Congratulation" property="og:title" />
+    <meta content="Congratulation" property="twitter:title" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Webflow" name="generator" />
+    <link href="./congrats.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="assets/img/trainity/favicon-32x32.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      @media screen and (max-width: 576px) {
+        svg {
+          width: 35px !important;
+        }
+      }
+      @media screen and (min-width: 991px) {
+        svg {
+          width: 50px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="section-2 wf-section">
+      <div class="container-3 w-container">
+        <div class="div-block-8">
+          <h1 class="heading-4">Congratulations !</h1>
+          <img
+            src="https://uploads-ssl.webflow.com/6307b05382558b3c6a860cdd/630a03030dc0117c7ab9394e_Party%20Popper.png"
+            loading="lazy"
+            alt=""
+            class="image-2"
+          />
+        </div>
+        <div class="text-block">We have received your application.</div>
+      </div>
+    </div>
+    <div class="wf-section">
+      <div class="container-4 w-container">
+        <div class="div-block-9">
+          <h1 class="heading-5">
+            Complete the following steps for reserving your spot in the launch
+            session.
+          </h1>
+          <div
+            data-w-id="c4cb2dc6-0d45-a6c5-ab65-619a8ee4d24c"
+            class="div-block-10"
+          >
+            <h1 class="heading-7">
+              <span id="todaydate"></span> <br /><span
+                class="text-span-3"
+                id="month"
+              ></span>
+            </h1>
+            <h1 class="heading-7 big">
+              11:00<span class="text-span-4">AM</span><br />
+              <span class="text-span-5" id="tense">Tommorow</span>
+            </h1>
+          </div>
+          <div class="div-block-15">
+            <div class="div-block-14">
+              <svg
+                class="bolt-svg"
+                viewBox="0 0 128 128"
+                fill="#F1DD02"
+                style="margin-left: 0px; padding-left: 0px; font-size: 3px"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M48 120L56 80L24 68L80 8L72 48L104 60L48 120Z"
+                  stroke="#FBFCF8"
+                  stroke-width="8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <!-- <img
+                src="./congoAssets/person2.png"
+                loading="lazy"
+                width="60"
+                alt=""
+                class="img"
+              /><img
+                src="./congoAssets/person3.png"
+                loading="lazy"
+                width="60"
+                alt=""
+                class="img"
+              /> -->
+            </div>
+            <div class="div-block-16">
+              <div class="text-block-3">
+                432
+                <span class="text-span-6">peoples have registered in last</span>
+                24 hrs.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="div-block-12">
+          <div class="div-block-12 hori">
+            <div class="status">
+              <img
+                src="https://uploads-ssl.webflow.com/6307b05382558b3c6a860cdd/630a2a1959946e64c66cde95_Done.png"
+                loading="lazy"
+                width="30"
+                alt=""
+                class="image-3"
+              />
+            </div>
+            <div class="task-name">
+              <h1 class="heading-8">Registeration</h1>
+              <p class="paragraph-2">See you at 11:00 am tomorrow</p>
+            </div>
+            <div class="status-sign">Done</div>
+          </div>
+          <div class="div-block-13"></div>
+          <div class="div-block-12 hori down">
+            <div
+              data-w-id="2a799221-1137-1c1a-0ad4-a1c8ccf1332a"
+              style="background-color: rgb(52, 77, 142)"
+              class="status remaining"
+            >
+              <div class="status remaining small"></div>
+            </div>
+            <div class="task-name">
+              <h1 class="heading-8">Complete Next Steps</h1>
+              <p class="paragraph-2">
+                Get to know which tech career is best for you
+              </p>
+            </div>
+          </div>
+          <a
+            href="https://tally.so/r/wgDVLO"
+            target="_blank"
+            class="button-3 w-button"
+            >Continue <i class="fa fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <script>
+      var today = new Date();
+      var date = today.getDate();
+      var month = today.getMonth();
+      var hour = today.getHours();
+      var mon = [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec",
+      ];
+      var tens;
+      if (hour < 15) {
+        tens = "Today";
+      } else {
+        tens = "Tommorow";
+      }
+      document.getElementById("todaydate").innerHTML = date;
+      document.getElementById("month").innerHTML = mon[month];
+      document.getElementById("tense").innerHTML = tens;
+    </script>
+  </body>
+</html>

@@ -259,7 +259,7 @@ body {
 }
 
 .main{
-    margin-top: 10rem;
+    margin-top: 3rem;
 }
 
 .container{
@@ -415,7 +415,7 @@ body {
 
 @media screen and (max-width: 990px){
     .main{
-        margin-top:6rem;
+        margin-top:2rem;
     }
     
     .container{

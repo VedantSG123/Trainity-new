@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
   /* font-family: "Inter", sans-serif; */
-  font-family: "Manrope", sans-serif !important;
 }
 
 /* html,
@@ -1078,7 +1077,7 @@ section {
   padding-top: 2.5rem !important;
   position: relative !important;
   margin: 0;
-  font-family: "Manrope", sans-serif;
+  
 }
 
 .work-card-heading {
@@ -1176,7 +1175,6 @@ section {
   padding-right: 10px;
   /* margin-top: 10px; */
   /* transform: translateY(45%); */
-  font-family: "Manrope", sans-serif !important;
 }
 
 .card-1-head {
@@ -1254,7 +1252,6 @@ section {
   padding-right: 10px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  font-family: "Manrope", sans-serif !important;
   border-radius: 10px;
   /* grid-column-gap: 10px; */
 }
@@ -2069,7 +2066,7 @@ tr {
   color: #212529;
   text-align: inherit;
   font-size: 1.1rem;
-  font-family: inherit;
+ 
   font-weight: 600;
   line-height: 1.2;
   color: #212529;
@@ -2222,7 +2219,7 @@ td {
   letter-spacing: -0.03em;
   font-size: 2.2rem;
   margin-bottom: 0.2rem;
-  font-family: inherit;
+ 
   font-weight: 700;
   line-height: 1.2;
   color: #212529;
@@ -2318,7 +2315,7 @@ td {
   font-size: 1.2rem;
   letter-spacing: -0.03em;
   margin-bottom: 1rem;
-  font-family: inherit;
+ 
   font-weight: 600;
   line-height: 1.2;
   color: #212529;
@@ -2355,7 +2352,7 @@ td {
   margin-bottom: 0;
   line-height: 1.375rem;
   font-size: 1rem;
-  font-family: inherit;
+ 
   font-weight: 600;
 
   color: #212529;
@@ -2571,7 +2568,7 @@ td {
   text-align: center !important;
   margin-bottom: 1rem;
   font-size: 1.5rem;
-  font-family: inherit;
+ 
   font-weight: 700;
   line-height: 1.2;
 }
@@ -2716,7 +2713,7 @@ td {
   margin-bottom: 0.75rem;
   line-height: 1.5;
   font-size: 1.15rem;
-  font-family: inherit;
+ 
   font-weight: 600;
   margin-top: 0;
 }
@@ -2897,7 +2894,7 @@ td {
   margin-inline-end: 0px;
   max-width: 267px;
   margin: 32px auto 0;
-  font-family: Roboto, sans-serif;
+
   font-size: 12px;
   line-height: 14px;
   text-align: center;

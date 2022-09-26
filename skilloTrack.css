@@ -546,16 +546,18 @@
   display: flex;
   -webkit-box-align: center;
   align-items: center;
+  
 }
 
 .skillo-card-experts-list-item {
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   padding: 7px;
   background-color: rgb(255, 255, 255);
   border: 2px solid rgb(231, 231, 235);
   border-radius: 100px;
   overflow: hidden;
+  margin-right:8px;
 }
 
 .skillo-card-experts-list-item img {
@@ -564,7 +566,7 @@
   object-fit: contain;
   vertical-align: middle;
   border-style: none;
-  transform: translateY(-15%) scale(2.5);
+  transform: translateY(-70%) scale(1.5);
 }
 
 @media screen and (max-width: 575px) {
@@ -581,6 +583,10 @@
     height: 30px;
     width: 30px;
     padding: 4px;
+  }
+
+  .skillo-card-experts-list-item img{
+    transform: translateY(-20%) scale(1.0);
   }
 }
 

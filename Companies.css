@@ -1,0 +1,46 @@
+.section-home-logo {
+    overflow: hidden;
+    color: #00353b;
+    
+}
+* {
+    transition: all .3s;
+}
+.padding-bottom {
+    padding-top: 0rem;
+    padding-right: 0rem;
+    padding-left: 0rem;
+}
+.padding-xxlarge {
+    padding: 3rem;
+  }
+  .logo-components {
+    width:calc(100vw);
+    margin-left: calc(-50vw + 50%);
+  }
+  .logo-lists {
+    /* display: -ms-grid;
+    display: grid; */
+    display: flex;
+     width:max-content;
+    
+    overflow: hidden;
+  }
+  .logo-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width:15rem;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+  .logo {
+    max-height: 3.5rem;
+  }

@@ -8,7 +8,7 @@
   class="w-mod-js w-mod-ix"
 >
   <head>
-   <link rel="stylesheet" href="faq.css">
+   
     <script
       type="text/javascript"
       async=""
@@ -56,6 +56,7 @@
     <meta content="Webflow" name="generator" />
 
     <link href="./fees.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="faq.css">
     <!--[if lt IE 9
       ]><script
         src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"
@@ -401,8 +402,70 @@
             <div class="container-large">
               <h3 style="margin-bottom:50px">Need Further Assistance?</h3>
               <div class="container-xxsmall">
-                <p>Hi, submit your query below</p>
-                
+                <h5>Hi, submit your query below</h5>
+                <div>
+                  <form id="contact" action="" method="post">
+                    <div class="fomr-element">
+                      <fieldset>
+                        <legend>Name</legend>
+                        <input placeholder="John Doe" type="text" tabindex="1" required autofocus>
+                      </fieldset>
+                    </div>
+                    <div class="fomr-element">
+                      <fieldset>
+                        <legend>Email</legend>
+                        <input placeholder="john@example.com" type="email" tabindex="2" required>
+                      </fieldset>
+                    </div>
+                    <div class="fomr-element">
+                      <fieldset>
+                        <legend>Subject</legend>
+                        <select required>
+                          <option value="" disabled selected>Select your option</option>
+                          <option>Eligibility & Application</option>
+                          <option>Program prerequisites</option>
+                          <option>Payment</option>
+                          <option>Start date & duration</option>
+                          <option>Program delivery</option>
+                          <option>Certifications</option>
+                          <option>Placement Assistance</option>
+                          <option>Other</option>
+                        </select>
+                      </fieldset>
+                    </div>
+                    <div class="fomr-element">
+                      <fieldset>
+                        <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+                      </fieldset>
+                    </div>
+                    
+                    
+                   
+                    
+                    
+                    <div class="form-bottom">
+                      <div>
+                        <div>
+                          <label for="attachment" class="add-img-label"><span class="icon-xxsmall" style="display:inline-block">
+                            attachment
+                            </span>Add attachment</label>
+                          <input type="file" name="attachments" id="attachment" multiple="" accept=".jpeg, .jpg, .png, .gif, .bmp, .pdf" style="display:none">
+                        </div>
+                        <div class="file-tip">
+                          <span>Maximum file size 5 MB</span>
+                          <br>
+                          <span>Only jpeg, jpg, png, gif, bmp, pdf allowed</span>  
+                        </div>
+                      </div>
+                      
+                        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                      
+                    </div>
+                  </form>
+                  <div class="further-assistance">
+                    If you still need any further assistance,<br>Contact us:
+                  </div>
+                </div>
               </div>
               
           

@@ -2950,6 +2950,26 @@
      font-size: 2rem;
      line-height: 1;
    }
+
+   .icon-xxsmall{
+    display: -webkit-box;
+     display: -webkit-flex;
+     display: -ms-flexbox;
+     display: flex;
+     width: auto;
+     height: auto;
+     -webkit-box-pack: center;
+     -webkit-justify-content: center;
+     -ms-flex-pack: center;
+     justify-content: center;
+     -webkit-box-align: center;
+     -webkit-align-items: center;
+     -ms-flex-align: center;
+     align-items: center;
+     font-family: 'Material icons', sans-serif !important;
+     font-size: 1.5rem;
+     
+   }
    
    .text-size-medium {
      font-size: 1.125rem;
@@ -9307,6 +9327,13 @@
    
      .blog-header-category-menu-wrapper-copy {
        width: 100%;
+     }
+
+     .container-xxsmall{
+      width: 100%;
+       max-width: 48rem;
+       margin-right: auto;
+       margin-left: auto;
      }
    
      .teacher-single-header-component {

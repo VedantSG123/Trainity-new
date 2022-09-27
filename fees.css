@@ -5845,7 +5845,7 @@
    .section-about-header {
      position: relative;
      overflow: hidden;
-     color: #00353b;
+     background-color: #00353b;
    }
    
    .about-header-component {

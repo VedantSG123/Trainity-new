@@ -6,11 +6,12 @@ function myFunction(x) {
   if (x.matches) {
     newNavBar.innerHTML = `<nav class="mobile" id="navbar">
         <div class="nav-logo-mobile">
-          <img
+         <a href="index.html"> <img
             src="navbar-assets/2.svg"
             alt=""
             class="trainity-img"
           />
+          </a>
         </div>
 
         <div class="nav-ham-mobile">
@@ -443,11 +444,12 @@ function myFunction(x) {
     newNavBar.innerHTML = `<nav class="laptop" id="navbar">
         <div class="laptop-nav-container">
           <div class="nav-logo-laptop">
-            <img
+          <a href="index.html">  <img
               src="https://trainity.in/assets/img/trainity/logo/2.svg"
               alt=""
               class="trainity-img"
             />
+            </a>
           </div>
           <div class="nav-links-laptop">
           

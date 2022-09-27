@@ -785,7 +785,7 @@ function myFunction(x) {
                 </div>
               </div>
             </div>
-            <div class="nav-tracks-link-laptop">
+            <div class="nav-fees-link-laptop">
               <a
                 href="fees.html"
                 class="nav-track-laptop-btn"
@@ -793,7 +793,7 @@ function myFunction(x) {
                 >Fees</a
               >
               </div>
-              <div class="nav-tracks-link-laptop">
+              <div class="nav-faq-link-laptop">
               <a
                 href="faq.html"
                 class="nav-track-laptop-btn"

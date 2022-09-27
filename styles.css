@@ -155,7 +155,7 @@ section {
   top: 0;
   width: 100%;
   background: #fff;
-  border-top: 6px solid #48bf84;
+ 
   box-shadow: 0 8px 16px rgb(0 0 0 / 6%);
   transform: translateZ(0);
   z-index: 1000;

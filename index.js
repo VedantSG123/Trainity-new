@@ -80,7 +80,7 @@ internList.addEventListener("click", (e) => {
   internList.classList.add("certi-active-list");
   trainList.classList.remove("certi-active-list");
 
-  certiImage.setAttribute("src", "./InternshipCertificate.png");
+  certiImage.setAttribute("src", "./assets/img/trainity/certificates/Internship Certificate.png");
 });
 
 trainList.addEventListener("click", (e) => {

@@ -264,17 +264,20 @@ const allQuestionElement = document.getElementsByClassName("questions");
 for (let index = 0; index < allQuestionElement.length; index++) {
   const question = allQuestionElement[index];
   question.addEventListener("click", (e) => {
-    togggleClass(`ans${index}`);
+    togggleClass(`ans${index}`,index);
   });
 }
 
-function togggleClass(className) {
+function togggleClass(className,index) {
   if (
     document.getElementsByClassName(className)[0].classList.contains("hidden")
   ) {
     document.getElementsByClassName(className)[0].classList.remove("hidden");
+     document.getElementsByClassName("q"+index)[0].classList.add("active-section");
+    
   } else {
     document.getElementsByClassName(className)[0].classList.add("hidden");
+    document.getElementsByClassName("q"+index)[0].classList.remove("active-section");
   }
 }
 
@@ -365,10 +368,12 @@ function changeDisplayedQuestions(questionArr) {
       ""
     ) {
       document.getElementsByClassName("questions")[i].classList.add("hidden");
+     
     } else {
       document
         .getElementsByClassName("questions")
         [i].classList.remove("hidden");
+       
     }
   }
 }

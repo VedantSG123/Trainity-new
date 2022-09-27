@@ -199,7 +199,7 @@ let sectionArray = [
   { id: 0, title: "Program Requisites" },
   { id: 1, title: "Payment & Refund" },
   { id: 2, title: "Start date & duration" },
-  { id: 3, title: "Program delivery, doubt solving, and projects" },
+  { id: 3, title: "Program delivery" },
   { id: 4, title: "Certifications" },
   { id: 5, title: "Guaranteed Internship Program" },
 ];

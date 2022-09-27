@@ -1,0 +1,17 @@
+.faq{
+    margin:40px;
+}
+.form{
+    width:50%;
+    margin:auto;
+border:1px solid rgb(221, 219, 219);
+padding:10px;
+box-shadow:2px 2px 4px rgb(208, 201, 201);
+padding:40px 
+}
+.form_group{
+   margin-bottom:40px
+}
+.form-control{
+    width:300px
+}

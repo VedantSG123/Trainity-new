@@ -3,202 +3,205 @@ const newQuestionArray = [
   [
     {
       question:
-        "Q. I have no experience in the career field. Can I still apply?",
+        "Q. Do I need to have a laptop or desktop to complete the program or can I do it on mobile too?",
       answer:
-        "Absolutely! Our experiences are made for newbies in the field. All you do need to take part is an interest in the field and access to the internet!"+" "+
-
-        "We recommend checking each program guide to see what the exact program requirements are."+" "+
-        
-        "We have a Free Trial facility that allows you to test out the program and complete 2 projects.",
-    },
-    {
-      question: " Q. What’s the time commitment required each week?",
-      answer:
-        "The time commitment is expected to be around 5 - 10 hrs per week (depending on which program you choose and your prior level of experience). The experience is virtual and mostly asynchronous (meaning you can work according to your schedule) so you can be flexible on how and when you choose to do the work."+" "+
-
-        "However, the deadlines are fixed and must be met to receive a certificate.",
+        "You can use a mobile to learn from study materials and class lectures but you need to have a laptop to complete the projects that are mandatory in this program. You can use friends and family laptops if you don’t have any.",
     },
     {
       question:
-        " Q. Is this an internship?",
+        " Q. Are there any prerequisites on the background/ degree/ technical skills like coding?",
       answer:
-        "No, this is not an internship. You will not be working for any of the mentors, the company of the mentor, or Trainity. This is an educational experience designed to give you insight into what it's like to be in that role and help you build up a portfolio for your first job!",
+        "The best thing about this program is that there are no prerequisites, this program is built to teach you from scratch. People from all backgrounds (B.tech/BCA/B.Com/BBA/ B.Sc/MBA/Commerce/Pharma etc.) are welcomed to apply. Note: No prior coding/ technical skills required.",
     },
+  ],
+  [
     {
-      question: "Q. How do I sign up for an experience?",
+      question: " Q. I'm not able to make payment. What should you do now?",
       answer:
-        "The first step is to create an account"+" "+ 
-
-       "Creating an account with us is completely free."+" "+
-        
-       "When you have an account, log in and select the experience you are interested in."+" "+
-        
-        "You will be required to pay a commitment bond in order to sign up for an experience, and if you are able to finish the experience by the assigned deadline, this bond will be refunded to you.",
+        "You could try making the payment from a different UPI/ Paytm/ Credit/ Debit cards/ Net Banking/ Mobile Banking (of a friend or family). If you still face issues, mail us at support@trainity.in, we will reserve a seat for you and you can make payments within 2 days.",
     },
     {
       question:
-        "Q. Can I put this on my CV/Resume/LinkedIn?",
+        "Q. What are the different options available to pay the program fee?",
       answer:
-        "Absolutely! After you complete an experience, you can add the experience to your CV, Resume, or LinkedIn."+" "+
-
-        "However, we kindly ask you to  not list yourself as an employee at Trainity or any of our Mentor companies."+" "+
-        
-        "For the moment, Trainity is not recognized as industrial work experience. We are in the process of getting these experiences approved and recognized and we will email you when they are."+" "+
-        
-        "For this reason, we recommend including the completion of the program in the 'Extracurricular Activities' or 'Projects' section of your resume in a similar format to below.",
+        "You can make payments on Trainity using the following payment methods: UPI/ Paytm/ Credit/Debit cards/ Net Banking/ Mobile Banking",
+    },
+    {
+      question: "Q. My payment got deducted twice. What should I do now?",
+      answer:
+        "You can mail us with your contact details, email address and payment screenshot. We will process the refund within 24 hrs.",
     },
     {
       question:
-        "Q. Who is running the experience? ",
+        "Q. I can not pay the entire fee in one go and would like to pay it in installments. What should I do?",
       answer:
-        "The experience is run by the Trainity Team and led by a team of industry mentors who help us create the content and curriculum.",
+        "You can mail us at support@trainity.in for installment payment, we will provide you all details there about the part payment you have to make. ",
+    },
+    {
+      question: "Q. Will there be any other fee? Are there any hidden charges?",
+      answer:
+        "No, there will be no other fee at any point during the program other than the enrollment fee. We do not charge anything even after your placement. You don’t have to worry about the hidden charges as we only ask for enrolment fee and that is also fully refundable after you complete this program within a deadline..",
+    },
+    {
+      question: "Q. What is the ₹0 Effective Fee, how does it work? ",
+      answer:
+        "Trainity requires Commitment Bond Fee to be paid to enroll in the program. This means that you pay a commitment bond of enrollment fee, and if you complete all projects in the experience, you will get a full refund at the end of the program. We have a 100% refund approval rate, which means 100% of our students who complete the program get their entire fee back",
     },
     {
       question:
-        "Q. How does the EMI option work? How much amount will I need to pay every month? Do I need to pay extra as interest cost?",
+        "Q. What is the guarantee of refund? What if my projects are rejected?",
       answer:
-        "If you choose to pay via EMI, a certain amount will be deducted from your account every month. For example, if the total program fee (including taxes) is Rs. 100 and you choose to pay via 12 months EMI then you will be charged Rs. 8.33 (100/12) every month. Since these are no cost EMIs, you don't need to pay anything extra as interest or processing fee. The total program fee you would pay over the duration of the EMI will remain the same as it would have been if you paid all of it upfront.",
+        "The projects are not pass/fail, that is if you attempt all projects without copying someone else's work and no blank submission, your projects will be approved and you will pass the training.",
     },
     {
-      question:
-        "Q. Will I receive a job at the end of the program?",
+      question: "Q. I paid, but was unable to log in. ",
       answer:
-        "Trainity is primarily an education platform and does not guarantee anyone employment at the end of the program."+" "+
-
-        "However, we do have a network of recruiters who do occasionally look at user work submissions and hire candidates with exceptional work. These recruiters operate according to their own employment needs and schedules outside of Trainity's influence and Trainity will act as a facilitator for these opportunities.",
+        "Trainity provides you to sign up in our portal using either your contact number or your mail id. Please ensure that you are providing the correct login credentials while logging in to our portal via the following link:https://trainity.space/ If the issue still persists, kindly mail us at support@trainity.in regarding the same and also mention your details such as email id, contact number, and payment screenshot.",
+    },
+    {
+      question: " Q. How do I know my eligibility for refund? ",
+      answer:
+        "You are eligible for getting a refund once you have completed the following tasks within a deadline: 1. Submit your projects and get them approved. 2. Complete the task section on the Trainity dashboard. In this section, you need to fill in your basic information and feedback. 3. Attend all of the career coaching sessions",
+    },
+    {
+      question: " Q. What If I pay now and do not get a seat? ",
+      answer:
+        "The seats are allotted on a first come first serve basis. If you pay, you will get a seat. If we are unable to provide you a seat, you will get a full refund of the enrolment fee in your original payment method within 2 hrs. If you have any queries regarding the number of seats left you can always mail us at support@trainity.in to know seats availability.",
     },
   ],
   [
     {
       question:
-        "Q. Are your programs free?",
-      answer:
-        "They can be!"+" "+
+        "Q. Once I am done with enrollment payment , when will the program start? Can I reschedule my program start date? ",
 
-        "Trainity requires a **commitment bond** to be paid prior to Entering a course. This means that you pay a commitment bond equivalent to ₹7499, and if you attempt all tasks in the experience before the assigned deadline, you will get a full refund."+" "+
-        
-        "If you cannot afford the commitment bond, we do offer financial aid to users that meet certain criteria.",
+      answer:
+        "You can start your program a day after making payment, you can also change the start date by mailing us at support@trainity.in. ",
     },
     {
       question:
-        "Q. How much does the program cost?",
-      answer:
-        "The program **can be free** if you finish the program."+" "+
+        "Q. What will be the timing of the online classes? How many hours a day do I need to spend on the program to complete it in the given duration? ",
 
-        "Trainity requires a **commitment bond** to be paid prior to Entering a course. This means that you pay a commitment bond equivalent to ₹7499, and if you attempt all tasks in the experience before the assigned deadline, you will get a full refund."+" "+
-        
-        "Depending on your financial institution or location, you may have the option to pay in your local currency, some of which may incur transaction fees or exchange rates. These are not claimed by Trainity and may not be included in your refund."+" "+
-        
-        "If you cannot afford the commitment bond, we do offer financial aid to users that meet certain criteria.",
+      answer:
+        " The videos are pre-recorded so you can watch them any time of the day as convenient to you. The training program also consists of 9 industry relevant projects that you will undergo as you learn.The timings are flexible and you would be required to put 1-1.5 hrs/day as per your own schedule. Even if you have other commitments, you can simply decide to put more time on holidays/weekends to complete your tasks & projects. ",
     },
     {
-      question: "Q.  What happens if I don't finish a program?",
-      answer:
-        "If you are unable to complete the course by the scheduled deadline(s), we will forfeit your commitment bond, and you will not receive a certificate of completion."+" "+
+      question: "Q. What is the duration of the program? ",
 
-        "In exchange you will be given permanent access to the content, so that you can continue learning in your own time - so effectively it will be just like buying an online course."+" "+
-        
-        "However, please note that support and submissions will be restricted after the program ends, and a certificate of completion will not be issued if you finish your work after the deadline.",
+      answer:
+        " First 12 weeks (8 + 4 buffer) will be your training period where you will develop skills and get work-ex while working on industry relevant projects. There will be 4 weeks of career coaching sessions where you will be mentored by a top notch career coach with an experience of over 7+ years. After 16 weeks you are eligible for a guaranteed internship that is optional for working professionals.   ",
     },
     {
       question:
-        "Q. How difficult is it to pass the course?",
-      answer:
-        "We want to give you the best chance of getting your money back. The course is not pass/fail. If you attempt every task (that means no blank submissions and no copying other people's work!) and get your submissions in on time, you will get your money back. It is up to you to make the most of the experience and submit the best work you can.",
-    },
-    {
-      question:
-        "Q. Why use a commitment bond? Why not sell the course, or make it free?",
-      answer:
-        "Good question!"+" "+
+        "Q. What if I am not able to complete the entire program in the given duration? Will I get an extension? ",
 
-        "Our biggest goal is to educate."+" "+
-        
-        "When we started, we tried selling our courses outright, as well as running them for free. In both cases, our completion rate was very low - our team has been in education for many years and this is a problem many online educators are having. People sign up for courses but lose interest the moment the work starts getting serious. We needed a way to motivate people to reach the end and the commitment bond was our solution. When we implemented this model, our completion rates shot up. Would you believe they are now 10 times higher than the average completion rate of other online education platforms? We are not trying to scam people by making it impossible to reach the end either. All you have to do is attempt the tasks - the course is not pass/fail. That means no blank submissions and no plagiarism. Incorrect answers and attempts are fine! We understand that's part of the process!"+" "+
-        
-        "If it's too hard, or not beneficial to you, we have a 7-day change of mind period (starting the day that the program starts) where we give you your money back no questions asked. Hopefully, this helps to alleviate some of your concerns and explains how and why the model came about.",
-    }
-    ],[
-    {
-      question:
-        "Q. Can I get the deadline extended?",
       answer:
-        "Unfortunately not."+" "+
-
-        "If you miss the deadline, you will not be eligible for completion of the course."+" "+
-        
-        "You will retain access to the content however you will not receive a certificate of completion at the end of the course."+" "+
-        
-        "The only acceptable reason to drop out and get a full refund is a medical reason (yourself or a close family member that you need to attend to). We do ask for some sort of proof to provide a refund for this reason.",
-    },
-    {
-      question:
-        "Q.Are there specific times I need to be present?",
-      answer:
-        "Nope!"+" "+
-
-        "Everything is done at your own pace besides submission deadlines as a commitment."+" "+
-        
-        "There are 2 deadlines at the end of the program that must be met in order to complete the program."+" "+
-        
-        "We do not offer extensions on these deadlines.",
-    },
-    {
-      question:
-        "Q. What if I have an unavoidable circumstance and I can't make a submission or need to drop out?",
-      answer:
-        "If you are unhappy with the program, you can receive a refund within the first 7 days of the program."+" "+
-
-        "After that, the only acceptable reason to drop out and get a full refund is a medical reason (yourself or a close family member that you need to attend to). We do ask for some sort of proof to provide a refund for this reason",
+        "Unlike other companies, we don’t charge anything to get an extension. It’s just that you will not be eligible for a refund if you don’t complete it within the given duration. ",
     },
   ],
   [
     {
       question:
-        "Q. Am I eligible for a refund?",
+        " Q. How many total modules and total projects are there in the data analytics course? ",
       answer:
-        "In order to have your commitment bond refunded, you must attempt all tasks before the first deadline of the program."+" "+
-
-        "Users who are unable to demonstrate a sincere attempt to engage with the work or are found plagiarising submissions will not be eligible for a refund."+" "+
-        
-        "In some cases, you may be ineligible for a refund, and will instead receive a premium package, at no extra cost, upon your completion of the program.",
+        "Trainity will provide you the learning material in form of recorded videos, handbooks, case studies, assignments, projects & daily tasks would be available on your dashboard There are a total 9 projects and 7 modules in total whose screenshot is attached below. ",
     },
-    
-  ]
+    {
+      question:
+        "Q. What will be the timing of the online classes? How many hours a day do I need to spend on the program to complete it in the given duration? ",
+
+      answer:
+        " The videos are pre-recorded so you can watch them any time of the day as convenient to you. The training program also consists of 9 industry relevant projects that you will undergo as you learn.The timings are flexible and you would be required to put 1-1.5 hrs/day as per your own schedule. Even if you have other commitments, you can simply decide to put more time on holidays/weekends to complete your tasks & projects. ",
+    },
+    {
+      question:
+        "Q. What if I get stuck somewhere while learning/ project implementation? How will my doubts be solved? ",
+
+      answer:
+        " You will have 24*7 access to a doubt clearing mail support (support@trainity.in) where you can post your doubts and one of the team members would answer them with-in 24 hours. ",
+    },
+    {
+      question:
+        "Q. How many projects will be there in the program? Do I need to submit all of them? On what parameters would my projects be evaluated? ",
+      answer:
+        " There will be a total 9 industry relevant projects in our program and you need to submit all of them. The projects are not pass/fail, that is if you attempt all projects without copying someone else's work and no blank submission, your projects will be approved and you will pass the training. Certifications ",
+    },
+  ],
+  [
+    {
+      question:
+        "Q. What certificate will I receive from Trainity upon completing the program? ",
+      answer:
+        "You will get a Mini Certificate after completing the first two projects then you will get a Training Certificate after completing 6 projects. When you complete all 9 projects, you will get a Virtual Internship Certificate from Trainity. ",
+    },
+    {
+      question:
+        "Q. What is the criteria for one to receive the certificate upon completion?",
+      answer:
+        " The necessary requirements to be eligible for the certificate are as follows -Submission of the mandatory projects Complete the task section on the Trainity dashboard Attending the career coaching sessions",
+    },
+  ],
+  [
+    {
+      question:
+        "Q. Will I get a guaranteed Internship? What will be the stipend? ",
+
+      answer:
+        "Yes, you will get a guaranteed paid internship of 4 weeks post completion of your training of 12 weeks. The minimum stipend will be ₹2,000/month. The median stipend is ₹5,000/month while the maximum stipend is ₹10,000/month. Also, you will get a guaranteed Virtual Internship certificate after which is valid to be used for colleges/linkedin/resume or as work experience while applying for a job. Internship is completely optional from your end.",
+    },
+    {
+      question:
+        "Q. How will an Internship help me in getting a job or career transition? ",
+
+      answer:
+        " Going via Intern —→ Full time role is often easier than directly applying for full time roles. Therefore, we will help you get a paid internship @top partner company which you can convert into a full time role by performing well  We get a 95% placement rate for Intern —→ Full Time Offer. That is, 95/100 students who get an internship after the program convert their Internship into a full time role.",
+    },
+    {
+      question: "Q. What is the benefit of Interning for 4 Weeks?",
+
+      answer:
+        " Internships have proved to boost placement and job opportunities for any candidate by 5-7x. Students who have internship experience are easily noticed by recruiters and are always given preference for interviews. However, getting an internship experience is extremely hard if you follow the standard route of applying via portals like internshala/linkedin, your chances of getting an internship is less than 5% . This is the same reason, the majority of students have blank and empty resumes by the time they reach their final year and sit for placements and are unable to get campus placements while students having experience are the ones who get placed at campus placements. Here, we step in to provide you with valid and official Internship experience so you can break out of no experience no job cycle.",
+    },
+  ],
 ];
 let questionArray = [
   {
-    question: "Q. What is Trainity?",
+    question: "Q. Who is eligible to apply for this program?",
     answer:
-      "Trainity is an experience platform dedicated to helping everyone discover and reskill into their next internship/job. Our programs are designed to teach you the fundamentals of a role by simulating the tasks would experience in this profession. By doing these programs you learn and build the experience needed to land that internship/job in Data Analytics.",
+      "The program is eligible for College Students (1st/2nd/3rd/4th year), Recent Graduates (Gaps), Working Professionals (from any field). The program will help:  1. College Students (1st Year to Final Year): Land paid guaranteed internships with stipend upto ₹5,000 2. Recent Graduates (2014-2021): Land a full time job with CTC > 6LPA after completing internship 3. Working Professionals (IT/Non-IT): Transition to Data analytics domain with upto 2x salary hike",
   },
 
   {
     question:
-      "Q. How do you collect my data? What do you do with it?",
+      "Q. I am in the early years of college and will NOT be graduating in the next 12 months, can I still apply?",
     answer:
-      "We treat the collection and storage of your data very seriously. We will collect some data on you to help us better customize our virtual experiences for you. We also have a recruitment network that occasionally comes to us to recruit candidates based on samples of work generated during the programs. All work completed during the program is available to be viewed by our recruitment network. Please note that this does not include any personal information, and our programs will not require any personal information to complete. If a recruiter is interested in your work, Trainity will contact you to opt-in for an introduction. We encourage you to read our privacy policy and our terms of use.",
+      "Yes, if you have decided to make a career in data analytics and are ready to put in the required time and effort to complete the program, you can still apply and get the program for an effective ₹0 fee. You can get a  paid guaranteed internship with stipend upto ₹5,000 after program completion.",
   },
   {
     question:
-      "Q. How does Trainity make money?",
+      "Q. I have more than 3 years of work experience in a different field and now I want to switch to Data Analytics, can I apply?",
     answer:
-      "Trainity makes money in several ways:"+" "+
-      "-> Commitment Bonds"+" "+
-      
-      "-> Enterprise/Business recruitment fees",
-  }
+      "Yes, Working professionals looking to change their field into data analytics or upskill can also enroll.  The internship will be optional for working professionals and timings are flexible for the entire program. Our previous Trainity graduates were from backgrounds like sales, customer support, operations and have successfully moved to the analytics domain after completing the program.The program will help them in the following ways: 1. Upskilling in Data Analytics domain 2. Building real world project on Data Analytics sourced from real companies 3. Beef-up their resume & LinkedIn with experience relevant to data domain",
+  },
+  {
+    question: "Q. I want to know more about the course.",
+    answer:
+      "Trainity provides live projects & online guaranteed internships with top startups to help students learn through practical and industrial experience and help them get their dream job in 16 weeks. The first 8+4 weeks of your training would be self-paced where all the learning material in form of recorded videos, handbooks, case studies, & projects would be available on your dashboard.The last four weeks will be mentored by our career coach with an experience of over 7 years in the career coaching domain. We also assist you in building your Resume, Linkedin profile, Value Document and how to contact HR's under the guidance of our mentors You will have access to curated content in the form of a written manual or in the form of recorded videos, which has all the necessary information you would need. We conduct live demo sessions for attending them you need to register with us. The information regarding course fees and payment are provided in the session which has to be paid before you start the training.For more information, you can visit our website -  https://www.trainity.in/ ",
+  },
+  {
+    question: "Q. On what parameters would my projects be evaluated?",
+    answer:
+      "You are required to complete 9 projects in this course. All these 9 projects have different levels of difficulty ranging from easy to moderate level. The projects are not pass/fail, that is if you attempt all projects without copying someone else's work and no blank submission, your projects will be approved and you will pass the training. On the basis of your project's quality you will get a score that you can see on the trainity dashboard.",
+  },
 ];
 
-
-
-
 let sectionArray = [
-  { id: 1, title: "More About Trainity" },
-  { id: 2, title: "Our Experiences" },
-  { id: 3, title: "Commitment Bond" },
-  { id: 4, title: "Deadline" },
-  { id: 5, title: "Program Support" },
+  { id: 0, title: "Eligibility & Application" },
+  { id: 0, title: "Program Requisites" },
+  { id: 1, title: "Payment & Refund" },
+  { id: 2, title: "Start date & duration" },
+  { id: 3, title: "Program delivery, doubt solving, and projects" },
+  { id: 4, title: "Certifications" },
+  { id: 5, title: "Guaranteed Internship Program" },
 ];
 
 const sectionContainer = document.getElementById("sections");
@@ -213,6 +216,7 @@ for (let index = 0; index < sectionArray.length; index++) {
     "truncate",
     `section-elem-${index}`
   );
+  newSectionElement.setAttribute("id", sectionArray[index].id);
   const newSectionTextElement = document.createTextNode(
     sectionArray[index].title
   );
@@ -312,32 +316,39 @@ function makeActive(className, sectionIndex) {
     ////// section wise if else condtn to display question in that perticular page
     if (
       document.getElementsByClassName(`section-elem-${sectionIndex}`)[0]
-        .innerText === "More About Trainity"
+        .innerText === "Eligibility & Application"
     ) {
       changeDisplayedQuestions(questionArray);
-    } else if (
-      document.getElementsByClassName(`section-elem-${sectionIndex}`)[0]
-        .innerText === " Deadline"
-    ) {
-      changeDisplayedQuestions(newQuestionArray[2]);
-    } else if (
-      document.getElementsByClassName(`section-elem-${sectionIndex}`)[0]
-        .innerText === "Our Experiences"
-    ) {
-      changeDisplayedQuestions(newQuestionArray[0]);
-    } else if (
-      document.getElementsByClassName(`section-elem-${sectionIndex}`)[0]
-        .innerText === "Commitment Bond"
-    ) {
-      changeDisplayedQuestions(newQuestionArray[1]);
-    } else if (
-      document.getElementsByClassName(`section-elem-${sectionIndex}`)[0]
-        .innerText === "Program Support"
-    ) {
-      changeDisplayedQuestions(newQuestionArray[3]);
-    } else {
-      changeDisplayedQuestions(newQuestionArray[4]);
-    }
+    } else
+      changeDisplayedQuestions(
+        newQuestionArray[
+          document.getElementsByClassName(`section-elem-${sectionIndex}`)[0].id
+        ]
+      );
+
+    //  if (
+    //   document.getElementsByClassName(`section-elem-${sectionIndex}`)[0]
+    //     .innerText === " Deadline"
+    // ) {
+    //   changeDisplayedQuestions(newQuestionArray[]);
+    // } else if (
+    //   document.getElementsByClassName(`section-elem-${sectionIndex}`)[0]
+    //     .innerText === "Our Experiences"
+    // ) {
+    //   changeDisplayedQuestions(newQuestionArray[0]);
+    // } else if (
+    //   document.getElementsByClassName(`section-elem-${sectionIndex}`)[0]
+    //     .innerText === "Commitment Bond"
+    // ) {
+    //   changeDisplayedQuestions(newQuestionArray[1]);
+    // } else if (
+    //   document.getElementsByClassName(`section-elem-${sectionIndex}`)[0]
+    //     .innerText === "Program Support"
+    // ) {
+    //   changeDisplayedQuestions(newQuestionArray[3]);
+    // } else {
+    //   changeDisplayedQuestions(newQuestionArray[4]);
+    // }
   }
 }
 
@@ -361,4 +372,3 @@ function changeDisplayedQuestions(questionArr) {
     }
   }
 }
-

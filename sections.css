@@ -13,3 +13,7 @@ section{
 footer{
     padding: 0;
 }
+
+.nav-links-laptop{
+    display: flex;
+}

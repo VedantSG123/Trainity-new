@@ -164,7 +164,7 @@ body {
 }
 
 .nav-links-laptop {
-    display: grid;
+    display: flex;
     justify-self: end;
     grid-template-columns: 1fr 2fr;
     grid-column-gap: 20px;

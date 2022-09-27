@@ -33,6 +33,7 @@ function myFunction(x) {
       </nav>
 
       <div class="new-nav-content-mobile">
+      
         <div class="nav-list-mobile">
           <a
             href="#"
@@ -340,6 +341,20 @@ function myFunction(x) {
             </ul>
           </div>
         </div>
+        <div class="nav-list-mobile">
+          <a
+            href="fees.html"
+            class="nav-track-mobile-btn"
+            onClick="navbarMobile()"
+            >Fees</a>
+          </div>
+          <div class="nav-list-mobile">
+          <a
+            href="faq.html"
+            class="nav-track-mobile-btn"
+            onClick="navbarMobile()"
+            >FAQ's</a>
+          </div>
         <div class="nav-log-mobile">
           <a
             href="https://trainity.space/"
@@ -435,6 +450,7 @@ function myFunction(x) {
             />
           </div>
           <div class="nav-links-laptop">
+          
             <div class="nav-tracks-link-laptop">
               <a
                 href="#"
@@ -767,6 +783,22 @@ function myFunction(x) {
                 </div>
               </div>
             </div>
+            <div class="nav-tracks-link-laptop">
+              <a
+                href="fees.html"
+                class="nav-track-laptop-btn"
+                onClick="navbarLaptop()"
+                >Fees</a
+              >
+              </div>
+              <div class="nav-tracks-link-laptop">
+              <a
+                href="faq.html"
+                class="nav-track-laptop-btn"
+                onClick="navbarLaptop()"
+                >FAQ's</a
+              >
+              </div>
             <div class="nav-log-link-laptop">
               <a
                 href="https://trainity.space/"

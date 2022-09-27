@@ -245,6 +245,7 @@ function displayQuestion(questionArr) {
     const newQuestionText = document.createTextNode(
       questionArr[index].question
     );
+    questionParaElement.classList.add(`ques${index}`)
     questionParaElement.appendChild(newQuestionText);
     newQuestionElement.appendChild(questionParaElement);
 
@@ -273,11 +274,11 @@ function togggleClass(className,index) {
     document.getElementsByClassName(className)[0].classList.contains("hidden")
   ) {
     document.getElementsByClassName(className)[0].classList.remove("hidden");
-     document.getElementsByClassName("q"+index)[0].classList.add("active-section");
+     document.getElementsByClassName("ques"+index)[0].classList.add("active-section");
     
   } else {
     document.getElementsByClassName(className)[0].classList.add("hidden");
-    document.getElementsByClassName("q"+index)[0].classList.remove("active-section");
+    document.getElementsByClassName("ques"+index)[0].classList.remove("active-section");
   }
 }
 

@@ -346,14 +346,14 @@ function myFunction(x) {
           <a
             href="fees.html"
             class="nav-track-mobile-btn"
-            onClick="navbarMobile()"
+           
             >Fees</a>
           </div>
           <div class="nav-list-mobile">
           <a
             href="faq.html"
             class="nav-track-mobile-btn"
-            onClick="navbarMobile()"
+            
             >FAQ's</a>
           </div>
         <div class="nav-log-mobile">
@@ -508,9 +508,9 @@ function myFunction(x) {
                             text-decoration: none;
                           "
                         >
-                          <h4 class="nav-content-head-laptop">
+                          <h5 class="nav-content-head-laptop" style="font-size: 1rem !important;">
                             Data Analytics
-                          </h4>
+                          </h5>
                         </a>
                         <div></div>
                         <div class="nav-rating-container-laptop">
@@ -616,9 +616,9 @@ function myFunction(x) {
                               </g>
                             </svg>
                           </div>
-                          <h4 class="nav-content-rating-laptop">
+                          <h5 class="nav-content-rating-laptop" style="font-size: 1rem !important;">
                             4.4 (3200+ ratings)
-                          </h4>
+                          </h5>
                         </div>
                       </div>
                     </li>
@@ -667,9 +667,9 @@ function myFunction(x) {
                             text-decoration: none;
                           "
                         >
-                          <h4 class="nav-content-head-laptop">
+                          <h5 class="nav-content-head-laptop" style="font-size: 1rem !important;">
                             Digital Marketing
-                          </h4>
+                          </h5>
                         </a>
                         <div></div>
                         <div class="nav-rating-container-laptop">
@@ -775,9 +775,9 @@ function myFunction(x) {
                               </g>
                             </svg>
                           </div>
-                          <h4 class="nav-content-rating-laptop">
+                          <h5 class="nav-content-rating-laptop" style="font-size: 1rem !important;">
                             4.7 (120+ ratings)
-                          </h4>
+                          </h5>
                         </div>
                       </div>
                     </li>
@@ -785,19 +785,19 @@ function myFunction(x) {
                 </div>
               </div>
             </div>
-            <div class="nav-fees-link-laptop">
+            <div class="nav-track-link-laptop">
               <a
                 href="fees.html"
-                class="nav-track-laptop-btn"
-                onClick="navbarLaptop()"
+                class="nav-fees-laptop-btn"
+               
                 >Fees</a
               >
               </div>
-              <div class="nav-faq-link-laptop">
+              <div class="nav-track-link-laptop">
               <a
                 href="faq.html"
-                class="nav-track-laptop-btn"
-                onClick="navbarLaptop()"
+                class="nav-faq-laptop-btn"
+                
                 >FAQ's</a
               >
               </div>

@@ -360,7 +360,7 @@ function myFunction(x) {
           <a
             href="https://trainity.space/"
             class="nav-log-mobile-btn"
-            >Log In / Sign Up</a
+            >Apply Now</a
           >
         </div>
       </div>`;
@@ -805,7 +805,7 @@ function myFunction(x) {
               <a
                 href="https://trainity.space/"
                 class="nav-log-laptop-btn"
-                >Log In / Sign Up</a
+                >Apply Now</a
               >
             </div>
           </div>

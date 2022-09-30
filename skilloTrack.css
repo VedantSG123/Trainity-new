@@ -235,11 +235,6 @@
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  text-overflow: ellipsis;
-  overflow: hidden;
   min-height: 3.86em;
   line-height: 1.93;
   color: rgb(134, 134, 134);
@@ -257,6 +252,7 @@
 
   .skillo-card-text-content p {
     font-size: 14px;
+
   }
 }
 

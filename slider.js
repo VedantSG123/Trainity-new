@@ -1,12 +1,8 @@
 $(window).on('load', function(){
     initSmoothScrolling('.testimonial-components','smoothscroll');
     logoSmoothScrolling('.logo-components', 'logoScroll');
-    $("a.program-btn").click(function(event) {
-        event.preventDefault();
-        $("html, body").animate({
-            scrollTop: $($(this).attr("href")).offset().top
-          }, 100);
-      });
+   
+   
   });
   
   function initSmoothScrolling(container,animation){
@@ -103,11 +99,5 @@ function changeClicked(){
         clicked = !click;
     });
 }
-document.querySelector(".main-wrapper").addEventListener("touchmove", function(e){
-    if(clicked === true){
-        e.preventDefault();
-        $(".menu-icon").click();
-    }
-});
 
 

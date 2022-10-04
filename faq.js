@@ -195,72 +195,72 @@ const newQuestionArray = [
 ];
 
 
-let sectionArray = [
-  { id: 0, title: "Eligibility & Application" },
-  { id: 1, title: "Program Requisites" },
-  { id: 2, title: "Payment & Refund" },
-  { id: 3, title: "Start date & duration" },
-  { id: 4, title: "Program delivery" },
-  { id: 5, title: "Certifications" },
-  { id: 6, title: "Guaranteed Internship Program" },
-];
+// let sectionArray = [
+//   { id: 0, title: "Eligibility & Application" },
+//   { id: 1, title: "Program Requisites" },
+//   { id: 2, title: "Payment & Refund" },
+//   { id: 3, title: "Start date & duration" },
+//   { id: 4, title: "Program delivery" },
+//   { id: 5, title: "Certifications" },
+//   { id: 6, title: "Guaranteed Internship Program" },
+// ];
 
-const sectionContainer = document.getElementById("sections");
-for (let index = 0; index < sectionArray.length; index++) {
-  const newSectionElement = document.createElement("section");
-  newSectionElement.classList.add(
-    "cursor-pointer",
-    "font-bold",
-    "text-sm",
-    "overflow-hidden",
-    "min-width-max",
-    "truncate",
-    `section-elem-${index}`
-  );
-  newSectionElement.setAttribute("id", sectionArray[index].id);
-  const newSectionTextElement = document.createTextNode(
-    sectionArray[index].title
-  );
-  newSectionElement.appendChild(newSectionTextElement);
-  sectionContainer.appendChild(newSectionElement);
-}
+// const sectionContainer = document.getElementById("sections");
+// for (let index = 0; index < sectionArray.length; index++) {
+//   const newSectionElement = document.createElement("section");
+//   newSectionElement.classList.add(
+//     "cursor-pointer",
+//     "font-bold",
+//     "text-sm",
+//     "overflow-hidden",
+//     "min-width-max",
+//     "truncate",
+//     `section-elem-${index}`
+//   );
+//   newSectionElement.setAttribute("id", sectionArray[index].id);
+//   const newSectionTextElement = document.createTextNode(
+//     sectionArray[index].title
+//   );
+//   newSectionElement.appendChild(newSectionTextElement);
+//   sectionContainer.appendChild(newSectionElement);
+// }
 
-const questionContainer = document.getElementById("Question-container");
+// const questionContainer = document.getElementById("Question-container");
 
-function displayQuestion(questionArr,it) {
-  for (let index = 0; index < questionArr.length; index++) {
-    const newQuestionElement = document.createElement("div");
-    newQuestionElement.classList.add(
-      "questions",
-      "py-5",
-      "border-b",
-      "hover:bg-slate-50",
-      "flex",
-      "tesxt-sm",
-      "flex-col",
-      "space-y-2",
-      "cursor-pointer",
-      `q${index}`
-    );
-    const questionParaElement = document.createElement("p");
-    const newQuestionText = document.createTextNode(
-      questionArr[index].question
-    );
-    questionParaElement.classList.add(`ques${index}`)
-    questionParaElement.appendChild(newQuestionText);
-    newQuestionElement.appendChild(questionParaElement);
+// function displayQuestion(questionArr,it) {
+//   for (let index = 0; index < questionArr.length; index++) {
+//     const newQuestionElement = document.createElement("div");
+//     newQuestionElement.classList.add(
+//       "questions",
+//       "py-5",
+//       "border-b",
+//       "hover:bg-slate-50",
+//       "flex",
+//       "tesxt-sm",
+//       "flex-col",
+//       "space-y-2",
+//       "cursor-pointer",
+//       `q${index}`
+//     );
+//     const questionParaElement = document.createElement("p");
+//     const newQuestionText = document.createTextNode(
+//       questionArr[index].question
+//     );
+//     questionParaElement.classList.add(`ques${index}`)
+//     questionParaElement.appendChild(newQuestionText);
+//     newQuestionElement.appendChild(questionParaElement);
 
-    const newAnswerPara = document.createElement("p");
-    newAnswerPara.classList.add(`ans${index}`, "answer", "hidden");
-    const newAnswerNode = document.createTextNode(questionArr[index].answer);
-    newAnswerPara.appendChild(newAnswerNode);
-    newQuestionElement.appendChild(newAnswerPara);
+//     const newAnswerPara = document.createElement("p");
+//     newAnswerPara.classList.add(`ans${index}`, "answer", "hidden");
+//     const newAnswerNode = document.createTextNode(questionArr[index].answer);
+//     newAnswerPara.appendChild(newAnswerNode);
+//     newQuestionElement.appendChild(newAnswerPara);
 
-    questionContainer.appendChild(newQuestionElement);
-  }
-}
+//     questionContainer.appendChild(newQuestionElement);
+//   }
+// }
 
-displayQuestion(newQuestionArray[0],0);
+// displayQuestion(newQuestionArray[0],0);
 
 const allQuestionElement = document.getElementsByClassName("questions");
 for (let index = 0; index < allQuestionElement.length; index++) {
@@ -350,6 +350,7 @@ function makeActive(className, sectionIndex) {
     // }
   }
 }
+
 
 function changeDisplayedQuestions(questionArr) {
   for (let i = 0; i < newQuestionArray[0].length; i++) {

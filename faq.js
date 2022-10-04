@@ -1,5 +1,35 @@
 document.body.classList.add("font-sans");
 const newQuestionArray = [
+   [
+    {
+      question: "Q. Who is eligible to apply for this program?",
+      answer:
+        "The program is eligible for College Students (1st/2nd/3rd/4th year), Recent Graduates (Gaps), Working Professionals (from any field). The program will help:  1. College Students (1st Year to Final Year): Land paid guaranteed internships with stipend upto ₹5,000 2. Recent Graduates (2014-2021): Land a full time job with CTC > 6LPA after completing internship 3. Working Professionals (IT/Non-IT): Transition to Data analytics domain with upto 2x salary hike",
+    },
+  
+    {
+      question:
+        "Q. I am in the early years of college and will NOT be graduating in the next 12 months, can I still apply?",
+      answer:
+        "Yes, if you have decided to make a career in data analytics and are ready to put in the required time and effort to complete the program, you can still apply and get the program for an effective ₹0 fee. You can get a  paid guaranteed internship with stipend upto ₹5,000 after program completion.",
+    },
+    {
+      question:
+        "Q. I have more than 3 years of work experience in a different field and now I want to switch to Data Analytics, can I apply?",
+      answer:
+        "Yes, Working professionals looking to change their field into data analytics or upskill can also enroll.  The internship will be optional for working professionals and timings are flexible for the entire program. Our previous Trainity graduates were from backgrounds like sales, customer support, operations and have successfully moved to the analytics domain after completing the program.The program will help them in the following ways: 1. Upskilling in Data Analytics domain 2. Building real world project on Data Analytics sourced from real companies 3. Beef-up their resume & LinkedIn with experience relevant to data domain",
+    },
+    {
+      question: "Q. I want to know more about the course.",
+      answer:
+        "Trainity provides live projects & online guaranteed internships with top startups to help students learn through practical and industrial experience and help them get their dream job in 16 weeks. The first 8+4 weeks of your training would be self-paced where all the learning material in form of recorded videos, handbooks, case studies, & projects would be available on your dashboard.The last four weeks will be mentored by our career coach with an experience of over 7 years in the career coaching domain. We also assist you in building your Resume, Linkedin profile, Value Document and how to contact HR's under the guidance of our mentors You will have access to curated content in the form of a written manual or in the form of recorded videos, which has all the necessary information you would need. We conduct live demo sessions for attending them you need to register with us. The information regarding course fees and payment are provided in the session which has to be paid before you start the training.For more information, you can visit our website -  https://www.trainity.in/ ",
+    },
+    {
+      question: "Q. On what parameters would my projects be evaluated?",
+      answer:
+        "You are required to complete 9 projects in this course. All these 9 projects have different levels of difficulty ranging from easy to moderate level. The projects are not pass/fail, that is if you attempt all projects without copying someone else's work and no blank submission, your projects will be approved and you will pass the training. On the basis of your project's quality you will get a score that you can see on the trainity dashboard.",
+    },
+  ],
   [
     {
       question:
@@ -163,45 +193,16 @@ const newQuestionArray = [
     },
   ],
 ];
-let questionArray = [
-  {
-    question: "Q. Who is eligible to apply for this program?",
-    answer:
-      "The program is eligible for College Students (1st/2nd/3rd/4th year), Recent Graduates (Gaps), Working Professionals (from any field). The program will help:  1. College Students (1st Year to Final Year): Land paid guaranteed internships with stipend upto ₹5,000 2. Recent Graduates (2014-2021): Land a full time job with CTC > 6LPA after completing internship 3. Working Professionals (IT/Non-IT): Transition to Data analytics domain with upto 2x salary hike",
-  },
 
-  {
-    question:
-      "Q. I am in the early years of college and will NOT be graduating in the next 12 months, can I still apply?",
-    answer:
-      "Yes, if you have decided to make a career in data analytics and are ready to put in the required time and effort to complete the program, you can still apply and get the program for an effective ₹0 fee. You can get a  paid guaranteed internship with stipend upto ₹5,000 after program completion.",
-  },
-  {
-    question:
-      "Q. I have more than 3 years of work experience in a different field and now I want to switch to Data Analytics, can I apply?",
-    answer:
-      "Yes, Working professionals looking to change their field into data analytics or upskill can also enroll.  The internship will be optional for working professionals and timings are flexible for the entire program. Our previous Trainity graduates were from backgrounds like sales, customer support, operations and have successfully moved to the analytics domain after completing the program.The program will help them in the following ways: 1. Upskilling in Data Analytics domain 2. Building real world project on Data Analytics sourced from real companies 3. Beef-up their resume & LinkedIn with experience relevant to data domain",
-  },
-  {
-    question: "Q. I want to know more about the course.",
-    answer:
-      "Trainity provides live projects & online guaranteed internships with top startups to help students learn through practical and industrial experience and help them get their dream job in 16 weeks. The first 8+4 weeks of your training would be self-paced where all the learning material in form of recorded videos, handbooks, case studies, & projects would be available on your dashboard.The last four weeks will be mentored by our career coach with an experience of over 7 years in the career coaching domain. We also assist you in building your Resume, Linkedin profile, Value Document and how to contact HR's under the guidance of our mentors You will have access to curated content in the form of a written manual or in the form of recorded videos, which has all the necessary information you would need. We conduct live demo sessions for attending them you need to register with us. The information regarding course fees and payment are provided in the session which has to be paid before you start the training.For more information, you can visit our website -  https://www.trainity.in/ ",
-  },
-  {
-    question: "Q. On what parameters would my projects be evaluated?",
-    answer:
-      "You are required to complete 9 projects in this course. All these 9 projects have different levels of difficulty ranging from easy to moderate level. The projects are not pass/fail, that is if you attempt all projects without copying someone else's work and no blank submission, your projects will be approved and you will pass the training. On the basis of your project's quality you will get a score that you can see on the trainity dashboard.",
-  },
-];
 
 let sectionArray = [
   { id: 0, title: "Eligibility & Application" },
-  { id: 0, title: "Program Requisites" },
-  { id: 1, title: "Payment & Refund" },
-  { id: 2, title: "Start date & duration" },
-  { id: 3, title: "Program delivery" },
-  { id: 4, title: "Certifications" },
-  { id: 5, title: "Guaranteed Internship Program" },
+  { id: 1, title: "Program Requisites" },
+  { id: 2, title: "Payment & Refund" },
+  { id: 3, title: "Start date & duration" },
+  { id: 4, title: "Program delivery" },
+  { id: 5, title: "Certifications" },
+  { id: 6, title: "Guaranteed Internship Program" },
 ];
 
 const sectionContainer = document.getElementById("sections");
@@ -226,7 +227,7 @@ for (let index = 0; index < sectionArray.length; index++) {
 
 const questionContainer = document.getElementById("Question-container");
 
-function displayQuestion(questionArr) {
+function displayQuestion(questionArr,it) {
   for (let index = 0; index < questionArr.length; index++) {
     const newQuestionElement = document.createElement("div");
     newQuestionElement.classList.add(
@@ -259,7 +260,7 @@ function displayQuestion(questionArr) {
   }
 }
 
-displayQuestion(questionArray);
+displayQuestion(newQuestionArray[0],0);
 
 const allQuestionElement = document.getElementsByClassName("questions");
 for (let index = 0; index < allQuestionElement.length; index++) {
@@ -318,12 +319,6 @@ function makeActive(className, sectionIndex) {
       .classList.add("active-section");
 
     ////// section wise if else condtn to display question in that perticular page
-    if (
-      document.getElementsByClassName(`section-elem-${sectionIndex}`)[0]
-        .innerText === "Eligibility & Application"
-    ) {
-      changeDisplayedQuestions(questionArray);
-    } else
       changeDisplayedQuestions(
         newQuestionArray[
           document.getElementsByClassName(`section-elem-${sectionIndex}`)[0].id
@@ -357,7 +352,7 @@ function makeActive(className, sectionIndex) {
 }
 
 function changeDisplayedQuestions(questionArr) {
-  for (let i = 0; i < questionArray.length; i++) {
+  for (let i = 0; i < newQuestionArray[0].length; i++) {
     document.getElementsByClassName("questions")[i].children[0].innerText = `${
       questionArr[i] ? questionArr[i].question : ""
     }`;

@@ -286,9 +286,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <a href="#Benefits" class="nav-link" aria-expanded="false" aria-haspopup="true">Benefits</a>
               </li>
               
-              <li class="nav-item dropdown">
-                <a href="#testimonials" class="nav-link" aria-expanded="false" aria-haspopup="true">Reviews</a>
-              </li>
+              
             </ul>
           </div>
           <a href="#fee" class="btn btn-primary ml-lg-3">Enroll Now</a>
@@ -314,7 +312,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
       <div class="row justify-content-center text-center pt-5">
         <div class="col-xl-7 col-lg-8 col-md-9">
-          <h6 class="text-muted">INTERNSHIP PROGRAM</h6>
+          <h6 class="text-muted">Learn—>Intern—>Get a Job</h6>
         </div>
       </div>
       <div class="row justify-content-center text-center">
@@ -1442,7 +1440,7 @@ Draft and prepare a business proposal for a freelance project</h5>
         <div class="col-xl-8 col-lg-9">
           <h2 class="display-4">Admission Process</h2>
           <p class="lead">
-            Attend the launch session, Sign-up for the program and get enrolled in Trainity's externship program for free <br />
+            Attend the launch session, Sign-up for the program and get enrolled in Trainity's  externship program for effectively &#8377;0 fees. <br />
             <!-- <a href="#fee_faq">Learn More</a> -->
           </p>
           <!-- <div class=" alert alert-danger">
@@ -1455,13 +1453,13 @@ Draft and prepare a business proposal for a freelance project</h5>
           <div class="card card-lg card-body flex-sm-row align-items-center pricing-ticket bg-primary layer-2 text-light">
             <div class="mx-2 text-center text-sm-left mb-3 mb-sm-0">
               <span class="h1 d-block">Register for Free</span>
-              <p class="lead pr-xl-3">
-                Registration closing: <span class="set-date">
+              <p class="lead pr-xl-3" id="reg_time">
+                <!-- Registration closing: <span class="set-date">
                             <span class="_date"></span>
                             <span class="_month"></span>, </span
-                          ><span class="_year"></span></span> at <span class="_time">11:00 AM</span>
+                          ><span class="_year"></span></span> at <span class="_time">11:00 AM</span> -->
               </p>
-              <a href="https://event.webinarjam.com/register/76/8q8lvb1p" class="btn btn-lg mt-2 btn-white reg-cstm-link">Proceed</a>
+              <a href="https://event.webinarjam.com/register/98/04klvh0g" class="btn btn-lg mt-2 btn-white reg-cstm-link">Proceed</a>
               <!-- <?php
               if (!isset($_COOKIE["user-email"])) { ?>
                 <a href="./PHP/sign-up.php" class="btn btn-lg mt-2 btn-white">Proceed</a>
@@ -2598,13 +2596,10 @@ Draft and prepare a business proposal for a freelance project</h5>
             <div class="reg-col">
               <div class="reg-content" style="box-shadow: 0px 0px 0px #000; ">
                 <div class="reg-head-content">
-                  <div class="reg-head">
-                    Registration closing at <span class="_time">11:00 AM</span>, <span class="set-date">
-                            <span class="_date"></span>
-                            <span class="_month"></span>, </span
-                          ><span class="_year"></span></span>
+                  <div class="reg-head" id="reg_time1">
+                   
                   </div>
-                  <a href="#" class="reg-apply-btn reg-cstm-link">Apply Now</a>
+                  <a href="https://event.webinarjam.com/register/98/04klvh0g" class="reg-apply-btn reg-cstm-link">Apply Now</a>
                 </div>
                 <div class="reg-svg-content">
                   <!-- <svg xmlns="http://www.w3.org/2000/svg" width="338" height="277" viewBox="0 0 338 277" fill="none" class="reg-svg" data-src="assets/img/decorations/deco-blob-1.svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -2829,13 +2824,10 @@ Draft and prepare a business proposal for a freelance project</h5>
 
       <div class="sticky-bar">
       <div class="sticky-content">
-        <div class="sticky-heading">
-          <h5>Registration Deadline: <span class="set-date">
-                            <span class="_date"></span>
-                            <span class="_month"></span>, </span
-                          ><span class="_year"></span></span></h5>
+        <div class="sticky-heading" id="reg_time2">
+         
         </div>
-        <a href="https://event.webinarjam.com/register/76/8q8lvb1p" class="pricing-btn reg-cstm-link"
+        <a href="https://event.webinarjam.com/register/98/04klvh0g" class="pricing-btn reg-cstm-link"
           >Register for Free
           
       </a>
@@ -2866,7 +2858,23 @@ Draft and prepare a business proposal for a freelance project</h5>
       <script src="./moment.min.js"></script>
       <script src="./date.js"></script>
       <!-- <script src="./date.js"></script> -->
-
+      <script>
+        const months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+        function getNextDayOfWeek(date, dayOfWeek) {
+           // Code to check that date and dayOfWeek are valid left as an exercise ;)
+       
+           var resultDate = new Date(date.getTime());
+       
+           resultDate.setDate(date.getDate() + (7 + dayOfWeek - date.getDay()) % 7);
+           return resultDate;
+        }
+        var next_sunday=getNextDayOfWeek(new Date(),0);
+       
+        document.getElementById("reg_time").innerHTML="Registration Closing: " +`${next_sunday.getDate()}`+` ${months[next_sunday.getMonth()]}`+", "+ `${1900+next_sunday.getYear()}`+" at 11:00 AM"
+      document.getElementById("reg_time1").innerHTML="Registration Closing at 11:00 AM, " +`${next_sunday.getDate()}`+` ${months[next_sunday.getMonth()]}`+", "+ `${1900+next_sunday.getYear()}`
+      document.getElementById("reg_time2").innerHTML=`<h5>Registration Closing at 11:00 AM, ${next_sunday.getDate()} ${months[next_sunday.getMonth()]} ${1900+next_sunday.getYear()}</h5>`
+     
+         </script>
   <script type="text/javascript" src="assets/js/jquery.min.js"></script>
   <script type="text/javascript" src="assets/js/popper.min.js"></script>
   <script type="text/javascript" src="assets/js/bootstrap.js"></script>
